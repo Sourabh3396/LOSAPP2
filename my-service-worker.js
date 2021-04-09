@@ -27,9 +27,9 @@
 //     }
 // })
 
-self.addEventListener('notificationclick', (event) => {
-    console.log('notification clicked!')
-  });
+// self.addEventListener('notificationclick', (event) => {
+//     console.log('notification clicked!')
+//   });
   
 
 // use all the magic of the Angular Service Worker
