@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Offline LoansBridge</title>
+
+   <!-- Google Font: Source Sans Pro -->
+   <!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
+   <!-- Font Awesome -->
+   <link rel="stylesheet" type="text/css" href="/LOSAPP1/assets/Offline/fontawesome-free/css/all.min.css">
+   <!-- Theme style -->
+   <link rel="stylesheet" type="text/css" href="/LOSAPP1/assets/Offline/css/adminlte.min.css">
+</head>
+
+<body>
+
+
+  <header>
+   
+  </header>
+ 
+  <div class="container">
+        <section class="content">
+               
+                <form id="newlappid" name="newlapp" action="">
+                  <!-- <div class="card" style="background-color:#d9d9d9"> -->
+                  <div class="card" style="margin-top: 20px;">
+                        <h3 style="text-align: center; padding-top: 10px;">Offline ArthSetu</h3>
+                    <div class="card-body">
+                        <div class="card" style="background-color:#f4f4f4">
+                            <div class="card-body">
+                              <div class="form-group">
+                                <h5>Personal Details</h5>
+                                <hr>
+                                <div class="form-row">
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label>First Name</label>
+                                      <input class="form-control" id="fnameInput" name="fnameInput" type="text" placeholder="First name"  value="">
+                                    </div>
+                                  </div> 
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label>Middle Name</label>
+                                      <input class="form-control" id="mnameInput" name="mnameInput" type="text"  placeholder="Middle name"  value="">
+                                    </div>
+                                  </div> 
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label>Last Name</label>
+                                      <input class="form-control" id="lnameInput" name="lnameInput" type="text"  placeholder="Last name"  value="">
+                                    </div>
+                                  </div> 
+                                </div>
+                                <div class="form-row">
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label for="bdteInput">Birth Date</label>
+                                      <input type="text" id="bdteInput" name="bdteInput" class="form-control dtpick" data-date-format="dd/mm/yyyy" placeholder="DD/MM/YYYY" value="">
+                                    </div> 
+                                  </div> 
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label>Gender</label>
+                                      <select id="genderInput" name="genderInput" class="form-control" data-placeholder="--CHOOSE--">
+                                          <option value="">--CHOOSE--</option>
+                                          <option value="Male">Male</option>
+                                          <option value="Female">Female</option>                           
+                                      </select>
+                                    </div> 
+                                  </div> 
+                                  <div class="col-sm-4">
+                                    <div class="form-group form-group-sm">
+                                      <label>Marital Status</label>
+                                      <select id="maritalInput" name="maritalInput" class="form-control" data-placeholder="--CHOOSE--">
+                                          <option value="">--CHOOSE--</option>
+                                          <option value="Single">Single</option>
+                                          <option value="Married">Married</option>
+                                      </select>
+                                    </div> 
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                  <h5>Relationship Information</h5>
+                                  <hr>
+                                  <div class="form-row">
+                                    <div class="col-sm-6">    
+                                          <div class="form-group form-group-sm">
+                                            <label>Fathers Name</label>
+                                            <input class="form-control" id="fathersnameInput">
+                                          </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <div class="form-group form-group-sm">
+                                        <label>Spouse Name</label>
+                                        <input class="form-control" id="spousenameInput">
+                                      </div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="form-group">
+                                <h5>Contact Information</h5>
+                                <hr>
+                                <div class="form-row">
+                                  <div class="col-sm-6">    
+                                    <div class="form-group form-group-sm">
+                                        <label>Mobile Number</label>
+                                        <input class="form-control" id="mnoInput">
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <div class="form-group form-group-sm">
+                                      <label>Email</label>
+                                      <input class="form-control" id="emailInput">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <h5>KYC Details</h5>   
+                                <hr>               
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                      <div class="form-group form-group-sm">
+                                        <label>UID</label>
+                                        <input class="form-control" id="aadharnoInput">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Driving Licence</label>
+                                        <input class="form-control" id="dlInput">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Voter ID</label>
+                                        <input class="form-control" id="vidInput">
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <div class="form-group form-group-sm">
+                                        <label>PAN</label>
+                                        <input class="form-control" id="panInput">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Passport</label>
+                                        <input class="form-control" id="ppInput">
+                                      </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <h5>Contact Details</h5>
+                                <hr>
+                                <div class="form-row">
+                                    <div class="col-sm-6">
+                                      <div class="form-group form-group-sm">
+                                        <label>Address Line 1</label>
+                                        <input class="form-control" id="addr1Input">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Address Line 2</label>
+                                        <input class="form-control" id="addr2Input">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Neighbourhood</label>
+                                        <input class="form-control" id="neighbourhoodInput">
+                                      </div>
+
+                                      <div class="form-group form-group-sm">
+                                        <label>State</label>
+                                        <select id="stateInput" name="stateInput" class="form-control" data-placeholder="--CHOOSE--">
+                                          <option value="">--CHOOSE--</option>
+                                          <option value="Delhi">Delhi</option>
+                                          <option value="Maharashtra">Maharashtra</option>
+                                          <option value="Gujrat">Gujrat</option>
+                                          <option value="Kerala">Kerala</option>                            
+                                          <option value="Kerala">West Bengal</option>                            
+                                        </select>
+                                      </div>
+                                      
+                                    </div>
+                                    <div class="col-sm-6">
+                                      <div class="form-group form-group-sm">
+                                        <label>Village/Locality</label>
+                                        <input class="form-control" id="villagelocalityInput">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>City Tehsil</label>
+                                        <input class="form-control" id="citytehsilInput">
+                                      </div>
+                                      <div class="form-group form-group-sm">
+                                        <label>Pincode</label>
+                                        <input class="form-control" id="pincodeInput">
+                                      </div>
+                                     
+                                    </div>
+                                </div>
+                              </div>
+                              <!-- <div class="form-row">
+                                <label>Primary</label>
+                                <input class="form-control" id="primaryInput">
+                              </div> -->
+                                  <!-- <div class="form-row">
+                                    <button id="addButton">Add</button>
+                                  </div> -->
+                              <!-- </div> -->
+                                  <!-- form group -->
+                            </div>
+                            <!-- inner card body -->
+
+                            <div class="card-footer">
+                                <button type="submit" name="action" value="edit" class="btn btn-success pull-right">Save</button>
+                            </div>
+                        </div>
+                        <!-- inner card -->
+
+                        
+                    </div>
+                    <!-- card body  -->
+                  
+                  </div>
+                  <!-- card  -->
+                </form>
+            
+              </section> 
+  </div>
+
+    <script src="/LOSAPP1/assets/Offline/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/LOSAPP1/assets/Offline/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/LOSAPP1/assets/Offline/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/LOSAPP1/assets/Offline/demo.js"></script>
+
+ 
+  
+</body>
+
+</html>
