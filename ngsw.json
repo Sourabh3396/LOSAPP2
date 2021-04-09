@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1617953244525,
+  "timestamp": 1617954087838,
   "index": "/LOSAPP2/index.html",
   "assetGroups": [
     {
@@ -14,6 +14,27 @@
         "/LOSAPP2/4.d1a7444a0d2cd2bd9e1e.js",
         "/LOSAPP2/5.e2411fb3d408ee93d1ad.js",
         "/LOSAPP2/6.48e0d22d572ac88e5e9c.js",
+        "/LOSAPP2/assets/Offline/offline1.html",
+        "/LOSAPP2/favicon.ico",
+        "/LOSAPP2/index.html",
+        "/LOSAPP2/main.901ce03d01a6971cc6be.js",
+        "/LOSAPP2/manifest.webmanifest",
+        "/LOSAPP2/my-service-worker.js",
+        "/LOSAPP2/polyfills.94daefd414b8355106ab.js",
+        "/LOSAPP2/runtime.4e46179d9977898ab9fa.js",
+        "/LOSAPP2/scripts.95f0518e13930773d5a6.js",
+        "/LOSAPP2/styles.269d320e5b3ec7b540a7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
         "/LOSAPP2/assets/Offline/bootstrap/js/bootstrap.bundle.js",
         "/LOSAPP2/assets/Offline/bootstrap/js/bootstrap.bundle.js.map",
         "/LOSAPP2/assets/Offline/bootstrap/js/bootstrap.bundle.min.js",
@@ -85,27 +106,6 @@
         "/LOSAPP2/assets/Offline/js/pages/dashboard.js",
         "/LOSAPP2/assets/Offline/js/pages/dashboard2.js",
         "/LOSAPP2/assets/Offline/js/pages/dashboard3.js",
-        "/LOSAPP2/assets/Offline/offline1.html",
-        "/LOSAPP2/favicon.ico",
-        "/LOSAPP2/index.html",
-        "/LOSAPP2/main.901ce03d01a6971cc6be.js",
-        "/LOSAPP2/manifest.webmanifest",
-        "/LOSAPP2/my-service-worker.js",
-        "/LOSAPP2/polyfills.94daefd414b8355106ab.js",
-        "/LOSAPP2/runtime.4e46179d9977898ab9fa.js",
-        "/LOSAPP2/scripts.95f0518e13930773d5a6.js",
-        "/LOSAPP2/styles.269d320e5b3ec7b540a7.css"
-      ],
-      "patterns": []
-    },
-    {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "cacheQueryOptions": {
-        "ignoreVary": true
-      },
-      "urls": [
         "/LOSAPP2/assets/icons/icon-128x128.png",
         "/LOSAPP2/assets/icons/icon-144x144.png",
         "/LOSAPP2/assets/icons/icon-152x152.png",
